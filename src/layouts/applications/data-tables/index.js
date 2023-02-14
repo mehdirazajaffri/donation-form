@@ -21,10 +21,10 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import DataTable from "examples/Tables/DataTable";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import DataTable from "shared/Tables/DataTable";
 
 // Data
 import dataTableData from "layouts/applications/data-tables/data/dataTableData";

@@ -18,14 +18,14 @@
 
 ### Added components
 
-- DefaultNavbarDropdown (src/examples/Navbars/DefaultNavbar/DefaultNavbarDropdown.js)
+- DefaultNavbarDropdown (src/shared/Navbars/DefaultNavbar/DefaultNavbarDropdown.js)
 
 ### Deleted dependencies
 
-- DefaultNavbarCategories (src/examples/Navbars/DefaultNavbar/DefaultNavbarCategories.js
-- DefaultNavbarLink (src/examples/Navbars/DefaultNavbar/DefaultNavbarLink.js
-- DefaultNavbarMenu (src/examples/Navbars/DefaultNavbar/DefaultNavbarMenu.js
-- Menus (src/examples/Navbars/DefaultNavbar/Menus)
+- DefaultNavbarCategories (src/shared/Navbars/DefaultNavbar/DefaultNavbarCategories.js
+- DefaultNavbarLink (src/shared/Navbars/DefaultNavbar/DefaultNavbarLink.js
+- DefaultNavbarMenu (src/shared/Navbars/DefaultNavbar/DefaultNavbarMenu.js
+- Menus (src/shared/Navbars/DefaultNavbar/Menus)
 
 ```
 react-html-parser

@@ -22,9 +22,9 @@ import MDTypography from "components/MDTypography";
 import MDButton from "components/MDButton";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
 
 // EditProduct page components
 import ProductImage from "layouts/ecommerce/products/edit-product/components/ProductImage";

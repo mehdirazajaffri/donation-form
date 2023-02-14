@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-/** 
+/**
   All of the routes for the Material Dashboard 2 PRO React are added here,
   You can add a new route, customize the routes and delete the routes here.
 
@@ -22,7 +22,7 @@ Coded by www.creative-tim.com
 
   For adding a new route you can follow the existing routes in the routes array.
   1. The `type` key with the `collapse` value is used for a route.
-  2. The `type` key with the `title` value is used for a title inside the Sidenav. 
+  2. The `type` key with the `title` value is used for a title inside the Sidenav.
   3. The `type` key with the `divider` value is used for a divider between Sidenav items.
   4. The `name` key is used for the name of the route on the Sidenav.
   5. The `key` key is used for the key of the route (It will help you with the key prop inside a loop).
@@ -36,42 +36,17 @@ Coded by www.creative-tim.com
 */
 
 // Material Dashboard 2 PRO React layouts
-import Billing from "layouts/pages/account/billing";
-import Invoice from "layouts/pages/account/invoice";
-import Settings from "layouts/pages/account/settings";
 import Charts from "layouts/pages/charts";
-import Notifications from "layouts/pages/notifications";
-import PricingPage from "layouts/pages/pricing-page";
-import AllProjects from "layouts/pages/profile/all-projects";
-import ProfileOverview from "layouts/pages/profile/profile-overview";
-import Timeline from "layouts/pages/projects/timeline";
-import RTL from "layouts/pages/rtl";
-import NewUser from "layouts/pages/users/new-user";
-import Widgets from "layouts/pages/widgets";
-
 // Material Dashboard 2 PRO React components
 
 // @mui icons
 import Icon from "@mui/material/Icon";
 
 // Images
-import Donations from "layouts/donations";
+import AddDonation from "./layouts/pages/donations/Add";
+import ListDonations from "./layouts/pages/donations/List";
 
 const routes = [
-  {
-    type: "collapse",
-    name: "Applications",
-    key: "applications",
-    icon: <Icon fontSize="medium">apps</Icon>,
-    collapse: [
-      {
-        name: "Donations",
-        key: "donations",
-        route: "/donations",
-        component: <Donations />,
-      },
-    ],
-  },
   { type: "title", title: "Pages", key: "title-pages" },
   {
     type: "collapse",
@@ -79,86 +54,24 @@ const routes = [
     key: "pages",
     icon: <Icon fontSize="medium">image</Icon>,
     collapse: [
+      { name: "Dashboard", key: "charts", route: "/pages/charts", component: <Charts /> },
       {
-        name: "Profile",
-        key: "profile",
+        name: "Donations",
+        key: "donation",
         collapse: [
           {
-            name: "Profile Overview",
-            key: "profile-overview",
-            route: "/pages/profile/profile-overview",
-            component: <ProfileOverview />,
-          },
-          {
-            name: "All Projects",
-            key: "all-projects",
-            route: "/pages/profile/all-projects",
-            component: <AllProjects />,
-          },
-        ],
-      },
-      {
-        name: "Users",
-        key: "users",
-        collapse: [
-          {
-            name: "New User",
-            key: "new-user",
-            route: "/pages/users/new-user",
-            component: <NewUser />,
-          },
-        ],
-      },
-      {
-        name: "Account",
-        key: "account",
-        collapse: [
-          {
-            name: "Settings",
+            name: "Add Donation",
             key: "settings",
-            route: "/pages/account/settings",
-            component: <Settings />,
+            route: "/pages/donation/add",
+            component: <AddDonation />,
           },
           {
-            name: "Billing",
-            key: "billing",
-            route: "/pages/account/billing",
-            component: <Billing />,
-          },
-          {
-            name: "Invoice",
-            key: "invoice",
-            route: "/pages/account/invoice",
-            component: <Invoice />,
+            name: "List Donation",
+            key: "list",
+            route: "/pages/donation/list",
+            component: <ListDonations />,
           },
         ],
-      },
-      {
-        name: "Projects",
-        key: "projects",
-        collapse: [
-          {
-            name: "Timeline",
-            key: "timeline",
-            route: "/pages/projects/timeline",
-            component: <Timeline />,
-          },
-        ],
-      },
-      {
-        name: "Pricing Page",
-        key: "pricing-page",
-        route: "/pages/pricing-page",
-        component: <PricingPage />,
-      },
-      { name: "RTL", key: "rtl", route: "/pages/rtl", component: <RTL /> },
-      { name: "Widgets", key: "widgets", route: "/pages/widgets", component: <Widgets /> },
-      { name: "Charts", key: "charts", route: "/pages/charts", component: <Charts /> },
-      {
-        name: "Notfications",
-        key: "notifications",
-        route: "/pages/notifications",
-        component: <Notifications />,
       },
     ],
   },

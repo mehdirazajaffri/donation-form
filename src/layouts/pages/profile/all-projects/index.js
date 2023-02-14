@@ -27,10 +27,10 @@ import MDTypography from "components/MDTypography";
 import MDButton from "components/MDButton";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import ComplexProjectCard from "examples/Cards/ProjectCards/ComplexProjectCard";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import ComplexProjectCard from "shared/Cards/ProjectCards/ComplexProjectCard";
 
 // Project page components
 import Header from "layouts/pages/profile/components/Header";

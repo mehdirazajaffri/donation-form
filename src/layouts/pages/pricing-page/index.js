@@ -19,7 +19,7 @@ import { useState } from "react";
 import Container from "@mui/material/Container";
 
 // Material Dashboard 2 PRO React examples
-import PageLayout from "examples/LayoutContainers/PageLayout";
+import PageLayout from "shared/LayoutContainers/PageLayout";
 
 // Pricing page components
 import Header from "layouts/pages/pricing-page/components/Header";

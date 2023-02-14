@@ -30,9 +30,9 @@ import MDBox from "components/MDBox";
 import MDButton from "components/MDButton";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
 
 // NewUser page components
 import UserInfo from "layouts/pages/users/new-user/components/UserInfo";

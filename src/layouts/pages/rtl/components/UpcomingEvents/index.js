@@ -21,7 +21,7 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import DefaultItem from "examples/Items/DefaultItem";
+import DefaultItem from "shared/Items/DefaultItem";
 
 function UpcomingEvents() {
   return (

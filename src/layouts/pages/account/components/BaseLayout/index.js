@@ -31,9 +31,9 @@ import MDBox from "components/MDBox";
 import breakpoints from "assets/theme/base/breakpoints";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
 
 function BaseLayout({ stickyNavbar, children }) {
   const [tabsOrientation, setTabsOrientation] = useState("horizontal");

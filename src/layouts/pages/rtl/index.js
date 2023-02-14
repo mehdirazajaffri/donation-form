@@ -24,17 +24,17 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import MiniStatisticsCard from "examples/Cards/StatisticsCards/MiniStatisticsCard";
-import ProgressLineChart from "examples/Charts/LineCharts/ProgressLineChart";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
-import MasterCard from "examples/Cards/MasterCard";
-import MiniInfoCard from "examples/Cards/InfoCards/MiniInfoCard";
-import ControllerCard from "examples/Cards/ControllerCard";
-import Calendar from "examples/Calendar";
-import CategoriesList from "examples/Lists/CategoriesList";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import MiniStatisticsCard from "shared/Cards/StatisticsCards/MiniStatisticsCard";
+import ProgressLineChart from "shared/Charts/LineCharts/ProgressLineChart";
+import DefaultInfoCard from "shared/Cards/InfoCards/DefaultInfoCard";
+import MasterCard from "shared/Cards/MasterCard";
+import MiniInfoCard from "shared/Cards/InfoCards/MiniInfoCard";
+import ControllerCard from "shared/Cards/ControllerCard";
+import Calendar from "shared/Calendar";
+import CategoriesList from "shared/Lists/CategoriesList";
 
 // RTL page components
 import Steps from "layouts/pages/rtl/components/Steps";

@@ -10,7 +10,7 @@
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
 
 // Kanban application components
 

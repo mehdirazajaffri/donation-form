@@ -20,8 +20,8 @@ import Grid from "@mui/material/Grid";
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React components
-import MasterCard from "examples/Cards/MasterCard";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+import MasterCard from "shared/Cards/MasterCard";
+import DefaultInfoCard from "shared/Cards/InfoCards/DefaultInfoCard";
 
 // Billing page components
 import BaseLayout from "layouts/pages/account/components/BaseLayout";

@@ -30,14 +30,14 @@ import MDButton from "components/MDButton";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import DefaultStatisticsCard from "examples/Cards/StatisticsCards/DefaultStatisticsCard";
-import DefaultLineChart from "examples/Charts/LineCharts/DefaultLineChart";
-import HorizontalBarChart from "examples/Charts/BarCharts/HorizontalBarChart";
-import SalesTable from "examples/Tables/SalesTable";
-import DataTable from "examples/Tables/DataTable";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import DefaultStatisticsCard from "shared/Cards/StatisticsCards/DefaultStatisticsCard";
+import DefaultLineChart from "shared/Charts/LineCharts/DefaultLineChart";
+import HorizontalBarChart from "shared/Charts/BarCharts/HorizontalBarChart";
+import SalesTable from "shared/Tables/SalesTable";
+import DataTable from "shared/Tables/DataTable";
 
 // Sales dashboard components
 import ChannelsChart from "layouts/dashboards/sales/components/ChannelsChart";

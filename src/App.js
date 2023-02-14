@@ -12,8 +12,8 @@ import Icon from "@mui/material/Icon";
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React examples
-import Sidenav from "examples/Sidenav";
-import Configurator from "examples/Configurator";
+import Sidenav from "shared/Sidenav";
+import Configurator from "shared/Configurator";
 
 // Material Dashboard 2 PRO React themes
 import theme from "assets/theme";
@@ -169,7 +169,7 @@ export default function App() {
       )}
       <Routes>
         {getRoutes(routes)}
-        <Route path="*" element={<Navigate to="/dashboards/analytics" />} />
+        <Route path="*" element={<Navigate to="/pages/charts" />} />
       </Routes>
     </ThemeProvider>
   );

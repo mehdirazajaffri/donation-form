@@ -21,19 +21,19 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import DefaultLineChart from "examples/Charts/LineCharts/DefaultLineChart";
-import GradientLineChart from "examples/Charts/LineCharts/GradientLineChart";
-import VerticalBarChart from "examples/Charts/BarCharts/VerticalBarChart";
-import HorizontalBarChart from "examples/Charts/BarCharts/HorizontalBarChart";
-import MixedChart from "examples/Charts/MixedChart";
-import BubbleChart from "examples/Charts/BubbleChart";
-import DefaultDoughnutChart from "examples/Charts/DoughnutCharts/DefaultDoughnutChart";
-import PieChart from "examples/Charts/PieChart";
-import RadarChart from "examples/Charts/RadarChart";
-import PolarChart from "examples/Charts/PolarChart";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import DefaultLineChart from "shared/Charts/LineCharts/DefaultLineChart";
+import GradientLineChart from "shared/Charts/LineCharts/GradientLineChart";
+import VerticalBarChart from "shared/Charts/BarCharts/VerticalBarChart";
+import HorizontalBarChart from "shared/Charts/BarCharts/HorizontalBarChart";
+import MixedChart from "shared/Charts/MixedChart";
+import BubbleChart from "shared/Charts/BubbleChart";
+import DefaultDoughnutChart from "shared/Charts/DoughnutCharts/DefaultDoughnutChart";
+import PieChart from "shared/Charts/PieChart";
+import RadarChart from "shared/Charts/RadarChart";
+import PolarChart from "shared/Charts/PolarChart";
 
 // Data
 import defaultLineChartData from "layouts/pages/charts/data/defaultLineChartData";

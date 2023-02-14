@@ -21,9 +21,9 @@ import Grid from "@mui/material/Grid";
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React examples
-import EventCalendar from "examples/Calendar";
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
+import EventCalendar from "shared/Calendar";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
 
 // Calendar application components
 import Header from "layouts/applications/calendar/components/Header";

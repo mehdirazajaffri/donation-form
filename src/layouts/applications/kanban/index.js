@@ -19,9 +19,9 @@ import MDTypography from "components/MDTypography";
 import MDInput from "components/MDInput";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
 
 // Kanban application components
 import Header from "layouts/applications/kanban/components/Header";

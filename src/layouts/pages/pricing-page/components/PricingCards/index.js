@@ -23,7 +23,7 @@ import Grid from "@mui/material/Grid";
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React examples
-import DefaultPricingCard from "examples/Cards/PricingCards/DefaultPricingCard";
+import DefaultPricingCard from "shared/Cards/PricingCards/DefaultPricingCard";
 
 // Material Dashboard 2 PRO React context
 import { useMaterialUIController } from "context";

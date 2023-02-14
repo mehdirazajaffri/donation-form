@@ -20,11 +20,11 @@ import Grid from "@mui/material/Grid";
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import TimelineList from "examples/Timeline/TimelineList";
-import TimelineItem from "examples/Timeline/TimelineItem";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import TimelineList from "shared/Timeline/TimelineList";
+import TimelineItem from "shared/Timeline/TimelineItem";
 
 // Data
 import timelineData from "layouts/pages/projects/timeline/data/timelineData";

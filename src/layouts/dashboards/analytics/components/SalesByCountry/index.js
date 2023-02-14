@@ -27,7 +27,7 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import SalesTable from "examples/Tables/SalesTable";
+import SalesTable from "shared/Tables/SalesTable";
 
 // Data
 import salesTableData from "layouts/dashboards/analytics/components/SalesByCountry/data/salesTableData";

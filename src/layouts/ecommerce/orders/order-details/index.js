@@ -22,9 +22,9 @@ import Divider from "@mui/material/Divider";
 import MDBox from "components/MDBox";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
 
 // OrderDetails page components
 import Header from "layouts/ecommerce/orders/order-details/components/Header";

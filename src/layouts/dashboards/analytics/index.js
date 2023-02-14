@@ -23,13 +23,13 @@ import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
 // Material Dashboard 2 PRO React examples
-import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
-import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
-import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
-import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
-import BookingCard from "examples/Cards/BookingCard";
+import DashboardLayout from "shared/LayoutContainers/DashboardLayout";
+import DashboardNavbar from "shared/Navbars/DashboardNavbar";
+import Footer from "shared/Footer";
+import ReportsBarChart from "shared/Charts/BarCharts/ReportsBarChart";
+import ReportsLineChart from "shared/Charts/LineCharts/ReportsLineChart";
+import ComplexStatisticsCard from "shared/Cards/StatisticsCards/ComplexStatisticsCard";
+import BookingCard from "shared/Cards/BookingCard";
 
 // Anaytics dashboard components
 import SalesByCountry from "layouts/dashboards/analytics/components/SalesByCountry";
